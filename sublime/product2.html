@@ -1,5 +1,5 @@
 <html lang="pt-br"><head>
-	<title>E-Commerce</title>
+	<title>Produto 2</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Sublime project">
@@ -9,8 +9,8 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/product.css">
+	<link rel="stylesheet" type="text/css" href="styles/product_responsive.css">
 	</head>
 	<body>
 	
@@ -39,7 +39,7 @@
 								</nav>
 								<div class="header_extra ml-auto">
 									<div class="shopping_cart">
-										<a href="#">
+										<a href="cart.html">
 											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
 												<g>
 													<path d="M440.1,422.7l-28-315.3c-0.6-7-6.5-12.3-13.4-12.3h-57.6C340.3,42.5,297.3,0,244.5,0s-95.8,42.5-96.6,95.1H90.3
@@ -49,7 +49,7 @@
 														c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-41h45.2l26.9,302.3C412.8,445.2,392.1,462,366.8,462z"></path>
 												</g>
 											</svg>
-											<div>Carrinho<span>(0)</span></div>
+											<div>Carrinho <span>(0)</span></div>
 										</a>
 									</div>
 									<div class="search">
@@ -120,25 +120,25 @@
 						<li class="page_menu_item has-children menu_mm">
 							<a href="index.html">Home<i class="fa fa-angle-down"></i></a>
 							<ul class="page_menu_selection menu_mm">
-								<li class="page_menu_item menu_mm"><a href="#">Categorias<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="#">Produto<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="#">Carrinho<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="#">Checkout<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="#">Contato<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="#">Categories<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="product.html">Product<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="cart.html">Cart<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="checkout.html">Checkout<i class="fa fa-angle-down"></i></a></li>
+								<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
 							</ul>
 						</li>
 						<li class="page_menu_item has-children menu_mm">
-							<a href="#">Categorias<i class="fa fa-angle-down"></i></a>
-							<ul class="page_menu_selection menu_mm" style="height: 0px;">
+							<a href="#">Categories<i class="fa fa-angle-down"></i></a>
+							<ul class="page_menu_selection menu_mm">
 								<li class="page_menu_item menu_mm"><a href="#">Category<i class="fa fa-angle-down"></i></a></li>
 								<li class="page_menu_item menu_mm"><a href="#">Category<i class="fa fa-angle-down"></i></a></li>
 								<li class="page_menu_item menu_mm"><a href="#">Category<i class="fa fa-angle-down"></i></a></li>
 								<li class="page_menu_item menu_mm"><a href="#">Category<i class="fa fa-angle-down"></i></a></li>
 							</ul>
 						</li>
-						<li class="page_menu_item menu_mm"><a href="index.html">Acessórios<i class="fa fa-angle-down"></i></a></li>
-						<li class="page_menu_item menu_mm"><a href="#">Ofertas<i class="fa fa-angle-down"></i></a></li>
-						<li class="page_menu_item menu_mm"><a href="#">Contatos<i class="fa fa-angle-down"></i></a></li>
+						<li class="page_menu_item menu_mm"><a href="index.html">Accessories<i class="fa fa-angle-down"></i></a></li>
+						<li class="page_menu_item menu_mm"><a href="#">Offers<i class="fa fa-angle-down"></i></a></li>
+						<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -159,14 +159,85 @@
 	
 		
 	
-		
+		<!-- Product Details -->
 	
-		
+		<div class="product_details">
+			<div class="container">
+				<div class="row details_row">
+	
+					<!-- Product Image -->
+					<div class="col-lg-6">
+						<div class="details_image">
+							<div class="details_image_large"><img src="images/details2_2.jpg" alt=""><div class="product_extra product_new"><a href="#">New</a></div></div>
+							<div class="details_image_thumbnails d-flex flex-row align-items-start justify-content-between">
+								<div class="details_image_thumbnail" data-image="images/details2_1.jpg"><img src="images/details2_1.jpg" alt=""></div>
+								<div class="details_image_thumbnail active" data-image="images/details2_2.jpg"><img src="images/details2_2.jpg" alt=""></div>
+								<div class="details_image_thumbnail" data-image="images/details2_3.jpg"><img src="images/details2_3.jpg" alt=""></div>
+								<div class="details_image_thumbnail" data-image="images/details2_4.jpg"><img src="images/details2_4.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+	
+					<!-- Product Content -->
+					<div class="col-lg-6">
+						<div class="details_content">
+    <br>
+    <br>
+							<div class="details_name">Super Smash Bros Ultimate Nintendo Switch</div>
+							<div class="details_discount">R$ 300</div>
+							<div class="details_price">R$ 250</div>
+							
+							<!-- In Stock -->
+							<div class="in_stock_container">
+								<div class="availability">Disponibilidade:</div>
+								<span>Em Estoque</span>
+							</div>
+							<div class="details_text">
+								<p>Super Smash Bros. Ultimate (大乱闘スマッシュブラザーズ SPECIAL Dairantō Sumasshu Burazāzu Supesharu?) é um jogo eletrônico de ação da série Super Smash Bros. desenvolvido pela Bandai Namco Studios e Sora Ltd. e publicado pela Nintendo. Foi lançado para Nintendo Switch em 7 de dezembro de 2018. Atualmente o jogo tem o personagem Terry Bogard do Fatal Fury e com trilha sonora dos jogos Metal Slug, The King Of Fighters em sua Soundtrack</p>
+							</div>
+	
+							<!-- Product Quantity -->
+							<div class="product_quantity_container">
+								<div class="product_quantity clearfix">
+									<span>Qnt</span>
+									<input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+									<div class="quantity_buttons">
+										<div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+										<div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+									</div>
+								</div>
+								<div class="button cart_button"><a href="#">Adicionar</a></div>
+							</div>
+	
+							<!-- Share -->
+							<div class="details_share">
+								<span>Share:</span>
+								<ul>
+									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="row description_row">
+					
+				</div>
+			</div>
+		</div>
 	
 		<!-- Products -->
 	
 		<div class="products">
 			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<div class="products_title">Produtos Relacionados</div>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col">
 						
@@ -177,8 +248,8 @@
 								<div class="product_image"><img src="images/product_1.jpg" alt=""></div>
 								<div class="product_extra product_new"><a href="#">New</a></div>
 								<div class="product_content">
-									<div class="product_title"><a href="product.html">Miniatura em LEGO do Homem Aranha (Sam Raimi)</a></div>
-									<div class="product_price">R$ 0.97</div>
+									<div class="product_title"><a href="product.html">Miniatura de LEGO do Homem Aranha (Sam Raimi)</a></div>
+									<div class="product_price">R$ 0,97</div>
 								</div>
 							</div>
 	
@@ -196,8 +267,8 @@
 							<div class="product" style="position: absolute; left: 585px; top: 0px;">
 								<div class="product_image"><img src="images/product_3.jpg" alt=""></div>
 								<div class="product_content">
-									<div class="product_title"><a href="#">Cabo USB</a></div>
-									<div class="product_price">R$ 710</div>
+									<div class="product_title"><a href="product.html">Cabo USB</a></div>
+									<div class="product_price">R$ 10</div>
 								</div>
 							</div>
 	
@@ -205,25 +276,12 @@
 							<div class="product" style="position: absolute; left: 877px; top: 0px;">
 								<div class="product_image"><img src="images/product_4.jpg" alt=""></div>
 								<div class="product_content">
-									<div class="product_title"><a href="#">Macbook</a></div>
+									<div class="product_title"><a href="product.html">Macbook</a></div>
 									<div class="product_price">R$ 330</div>
 								</div>
 							</div>
 	
-							
-							
-	
-							
-							
-	
-							
-							
-	
-							
-							
-	
 						</div>
-							
 					</div>
 				</div>
 			</div>
@@ -233,17 +291,8 @@
 	
 		
 	
-		
-	
-		
-	
-		
-	
-		
-	
 		<!-- Footer -->
-		<br>
-        <br>
+		
 		<div class="footer_overlay"></div>
 		<footer class="footer">
 			<div class="footer_background" style="background-image:url(images/footer.jpg)"></div>
@@ -280,6 +329,6 @@
 	<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
 	<script src="plugins/easing/easing.js"></script>
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
-	<script src="js/custom.js"></script>
+	<script src="js/product.js"></script>
 	
 	</body></html>

@@ -1083,6 +1083,8 @@ section
 	background: #FFFFFF;
 	padding-top: 99px;
 	z-index: 2;
+	height: 600px;
+	margin-top: 65px;
 }
 .product
 {
